@@ -71,7 +71,7 @@ def tic_tac_toe():
         """
         Function that runs a while loop for handling the user input. 
         """
-        while True:
+        while input:
             try:
                 i = int(input())
                 if i in board:
@@ -81,10 +81,10 @@ def tic_tac_toe():
             except ValueError:
                 print("\nNot a number. Try again")
 
-    def play_game():
+    def stop_game():
         """
-        Draws/prints the board layout like the number pad on your computer
-        """
+        Runs draw_board()-prints the board layout like the number pad on your computer. Tests & tracks the placement of players 'X' & 'O'. 
+         """
         for row1, row2, row3 in winning_combos:
             if board[row1] == board[row2] == board[row3]:
                 print("Player {0} wins!\n".format(board[row1]))
@@ -97,13 +97,13 @@ def tic_tac_toe():
 
     for player in ['X', 'O'] * 9:
         draw_board()
-        if play_game():
+        if stop_game():
             break
         print("Player {0} pick your move".format(player))
         board[choose_number()] = player
         print()
 
-while True:
+while tic_tac_toe:
     tic_tac_toe()
     if input("Play again (y/n)\n") != "y":
         break
