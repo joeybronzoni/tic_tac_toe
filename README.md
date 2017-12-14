@@ -11,6 +11,7 @@
 #sudo chmod +x tic_tac_toe.py
 #./tic_tac_toe.py
 #----------------------------------------
+
 """
 1) display instructions/rules for playing the game
 2) create main function for holding all the functionality for the game
