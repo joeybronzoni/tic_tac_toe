@@ -3,7 +3,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-
 .DS_Store
 
 #ignore all safe copies from text-editor
@@ -15,6 +14,8 @@ __pycache__/
 #ignore safe-copies
 #*#
 
+#environment
+*.env*
 
 # C extensions
 *.so

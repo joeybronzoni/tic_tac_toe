@@ -46,6 +46,7 @@ def display_instructions():
     """
     )
 
+
 def tic_tac_toe():
     """
     Main function to play game. Defines the board and the combination of moves needed to win.
