@@ -4,6 +4,8 @@
 
 
 ## Overview
+
+```
 #Python3.6 env
 #To run you can:
 #python ./tic_tac_toe.py
@@ -11,6 +13,7 @@
 #sudo chmod +x tic_tac_toe.py
 #./tic_tac_toe.py
 #----------------------------------------
+```
 
 """
 1) display instructions/rules for playing the game
