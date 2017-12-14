@@ -23,10 +23,14 @@
 9) if game is over run main function unless player choses to quit
 
 
+```
     _____      ___       ____    _     ___     ____   ___   ___
    /_   _\ _  /  _\     /_  _\  / \   /  _\   /_  _\ /   \ |  _|
      | |  | | | |__ --   | |   / | \  | |_  --  | |  | | | | -_
      |_|  |_| \___/      |_|  /_ |_ \ \___/     |_|  \___/ |___|
+```
+
+
 
     Welcome to Tic-Tac-Toe.
     Make your move by entering a number, 1 - 9.  The number
