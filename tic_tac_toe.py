@@ -113,3 +113,10 @@ while tic_tac_toe: #I could just test for True here, but I want to be clear for 
     tic_tac_toe()
     if input("Want to play again? (y/n)\n") != "y":
         break
+
+    #If i was using a function to replay i could use this
+    """
+    def replay():
+        #This would work instead of the input() at the end there
+        return raw_input('Do you want to play again? Enter Yes or No: ').lower().startswith('y')
+    """
