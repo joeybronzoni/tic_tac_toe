@@ -98,7 +98,7 @@ def tic_tac_toe():
                 return True
         num = 9 #My linter seems to be very picky about not assigning 9 to a variable
         if num == sum((placement == 'X' or placement == 'O') for placement in board):
-            print("Tie!!!\n")
+            print("The game is a draw!!!\n")
             return True
 
     for player in ['X', 'O'] * 9:
